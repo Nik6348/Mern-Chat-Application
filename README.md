@@ -8,7 +8,8 @@ This is a simple chat application built using the MERN stack (MongoDB, Express.j
 ![Demo Image](./Demo/chatlist.png)
 ![Demo Image](./Demo/register.png)
 ![Demo Image](./Demo/login.png)
-<img src="./Demo/mobile_screen.png" width="40%" height="20%"> <img src="./Demo/mobile_chatlist.png" width="40%" height="20%">
+<img src="./Demo/mobile_screen.png" width="45%" height="20%">
+<img src="./Demo/mobile_chatlist.png" width="45%" height="20%">
 
 ## Technologies Used
 
