@@ -1,0 +1,79 @@
+.chatlist-container {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.add-contact-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #075e54;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.add-contact-button:hover {
+  background-color: #064c48;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  cursor: pointer;
+}
+
+.contact-item:hover {
+  background-color: #f0f0f0;
+}
+
+.contact-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #075e54;
+  color: white;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.last-message {
+  font-size: 14px;
+  color: gray;
+}
