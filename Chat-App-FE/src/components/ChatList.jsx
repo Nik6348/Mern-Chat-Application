@@ -32,7 +32,7 @@ const ChatList = () => {
     const fetchContacts = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:5000/api/users/${username}/contacts`
+          `mern-chat-application-axct-mnvos3891-nik6348s-projects.vercel.app/api/users/${username}/contacts`
         );
         setContacts(response.data);
       } catch (error) {
@@ -47,7 +47,7 @@ const ChatList = () => {
     const contactUsername = prompt("Enter the username of the contact:");
     if (contactUsername) {
       try {
-        await axios.post("http://localhost:5000/api/users/add-contact", {
+        await axios.post("mern-chat-application-axct-mnvos3891-nik6348s-projects.vercel.app/api/users/add-contact", {
           username,
           contactUsername,
         });
