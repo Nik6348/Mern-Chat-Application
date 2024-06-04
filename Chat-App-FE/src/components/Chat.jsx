@@ -13,7 +13,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import moment from 'moment';
 import Picker from 'emoji-picker-react';
 
-const socket = io('http://localhost:5000');
+const socket = io('mern-chat-application-axct-mnvos3891-nik6348s-projects.vercel.app');
 
 const Chat = () => {
   const [messages, setMessages] = useState([]);
@@ -28,7 +28,7 @@ const Chat = () => {
   useEffect(() => {
     const fetchMessages = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/api/chat/${userId}/${contactId}/messages`);
+        const response = await axios.get(`mern-chat-application-axct-mnvos3891-nik6348s-projects.vercel.app/api/chat/${userId}/${contactId}/messages`);
         setMessages(response.data);
       } catch (error) {
         toast.error('Failed to fetch messages');
@@ -62,7 +62,7 @@ const Chat = () => {
   const handleSendMessage = async () => {
     if (newMessage.trim() === '') return;
     try {
-      const response = await axios.post('http://localhost:5000/api/chat/send', {
+      const response = await axios.post('mern-chat-application-axct-mnvos3891-nik6348s-projects.vercel.app/api/chat/send', {
         userId,
         contactId,
         text: newMessage,
