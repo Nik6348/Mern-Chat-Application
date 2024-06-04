@@ -23,7 +23,7 @@ This is a simple chat application built using the MERN stack (MongoDB, Express.j
 
 To get started with the MERN Chat app, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/mern-chat-app.git`
+1. Clone the repository: `git clone https://github.com/nik.6348/mern-chat-app.git`
 2. Install the dependencies: `cd mern-chat-app && npm install`
 3. Set up the environment variables: Create a `.env` file in the root directory and add the following variables:
    - `MONGODB_URI`: MongoDB connection string
