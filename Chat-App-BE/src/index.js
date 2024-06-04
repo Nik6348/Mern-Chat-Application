@@ -20,7 +20,7 @@ app.use('/api/chat', chatRoutes);
 const server = createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://mern-chat-application-kappa.vercel.app/",
+    origin: "https://mern-chat-application-2yl4ccs0u-nik6348s-projects.vercel.app/",
     methods: ["GET", "POST"]
   }
 });
